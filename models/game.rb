@@ -5,6 +5,8 @@ def self.return_winner(option1, option2)
     return "Rock wins"
   elsif (option1 == "paper" && option2 == "rock") || (option1 == "rock" && option2 == "paper")
     return "Paper wins"
+  elsif (option1 == "scissors" && option2 == "paper") || (option1 == "paper" && option2 == "scissors")
+    return "Scissors wins"
   end
 end
 
