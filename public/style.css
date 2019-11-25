@@ -1,0 +1,17 @@
+body {
+  background-color: #00b3b3;
+  font-style: bold;
+  font-family: fantasy;
+  text-align:   center;
+  font-size: 30px;
+}
+nav {
+  background: #80ffff;
+  font-size: 20px;
+}
+h1 {
+  text-shadow: 2px 2px #ff3300;
+}
+li {
+  list-style-type: none;
+}
