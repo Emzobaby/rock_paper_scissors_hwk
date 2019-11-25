@@ -13,6 +13,8 @@ class Game
       return "Player 1 wins by playing SCISSORS!"
     elsif (option1 == "paper" && option2 == "scissors")
       return "Player 2 wins by playing SCISSORS!"
+    elsif option1 == option2
+      return "It's a draw!"
     end
   end
 
